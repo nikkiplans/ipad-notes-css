@@ -54,17 +54,20 @@
     border: none !important;
     box-shadow: none !important;
   }
-.notes-sidebar li.active a {
-  background: #FFCF5A !important;
-  border-radius: 3px !important;
-  color: #111 !important;
-  font-weight: 600 !important;
-} 
-@media screen and (max-width: 768px) {
+
+  /* 🍋 Mobile yellow highlight */
   .note-item.active {
     background-color: #FFCF5A !important;
     border-radius: 3px !important;
     color: #111 !important;
     font-weight: 600 !important;
   }
+}
+
+/* 🍋 Global yellow highlight override */
+.note-item.active {
+  background-color: #FFCF5A !important;
+  border-radius: 3px !important;
+  color: #111 !important;
+  font-weight: 600 !important;
 }

@@ -1,0 +1,62 @@
+/* 🧼 iPad Notes Mobile Sidebar Fixes */
+@media screen and (max-width: 768px) {
+  .notes-sidebar {
+    width: 60px !important;
+    min-width: 60px !important;
+    padding: 8px 4px !important;
+    background: #ffffff !important;
+    border-right: 1px solid #e0e0e0 !important;
+  }
+
+  .notes-sidebar h3,
+  .notes-sidebar .meta {
+    display: none !important;
+  }
+
+  .notes-sidebar ul {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+  }
+
+  .notes-sidebar li {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+
+  .notes-sidebar a,
+  .notes-sidebar a:link,
+  .notes-sidebar a:visited {
+    font-size: 6px !important;
+    line-height: 1.1 !important;
+    padding: 1px 3px !important;
+    color: #333 !important;
+    background: transparent !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    text-align: left !important;
+    display: block !important;
+    border-radius: 4px !important;
+    letter-spacing: 0.2px !important;
+  }
+
+  .notes-main {
+    padding: 16px 12px !important;
+    overflow-x: hidden !important;
+  }
+
+  .notes-main article {
+    padding: 16px 12px !important;
+    border-radius: 12px !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+.notes-sidebar li.active a {
+  background: #FFCF5A !important;
+  border-radius: 3px !important;
+  color: #111 !important;
+  font-weight: 600 !important;
+} 

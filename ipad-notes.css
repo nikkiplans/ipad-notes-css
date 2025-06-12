@@ -60,3 +60,11 @@
   color: #111 !important;
   font-weight: 600 !important;
 } 
+@media screen and (max-width: 768px) {
+  .note-item.active {
+    background-color: #FFCF5A !important;
+    border-radius: 3px !important;
+    color: #111 !important;
+    font-weight: 600 !important;
+  }
+}
